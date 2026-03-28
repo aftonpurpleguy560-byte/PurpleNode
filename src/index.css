@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-purple-500 antialiased;
+    background-color: #000000;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* Kaydırma çubuğunu (Scrollbar) gizli ve şık yapalım */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2e1065;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6b21a8;
+  }
+}
+
+/* Neon Parlama Animasyonu */
+@keyframes neon-pulse {
+  0%, 100% { opacity: 0.5; filter: blur(80px); }
+  50% { opacity: 0.8; filter: blur(120px); }
+}
+
+.neon-bg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, #7c3aed 0%, transparent 70%);
+  z-index: -1;
+  animation: neon-pulse 5s infinite ease-in-out;
+}
+
+/* Giriş kutularındaki o iğrenç beyaz arka planı engelleme */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #a855f7;
+  -webkit-box-shadow: 0 0 0px 1000px #080808 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
