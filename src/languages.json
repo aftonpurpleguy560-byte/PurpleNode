@@ -1,0 +1,48 @@
+{
+  "tr": {
+    "welcome": "Karanlığa Hoşgeldin",
+    "login": "Giriş Yap",
+    "register": "Kayıt Ol",
+    "server_status": "SUNUCU DURUMU",
+    "start": "BAŞLAT",
+    "stop": "DURDUR",
+    "files": "DOSYALAR"
+  },
+  "en": {
+    "welcome": "Welcome to Darkness",
+    "login": "Login",
+    "register": "Register",
+    "server_status": "SERVER STATUS",
+    "start": "START",
+    "stop": "STOP",
+    "files": "FILES"
+  },
+  "de": {
+    "welcome": "Willkommen in der Dunkelheit",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "server_status": "SERVERSTATUS",
+    "start": "START",
+    "stop": "STOPP",
+    "files": "DATEIEN"
+  },
+  "fr": {
+    "welcome": "Bienvenue dans les ténèbres",
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "server_status": "ÉTAT DU SERVEUR",
+    "start": "DÉMARRER",
+    "stop": "ARRÊTER",
+    "files": "FICHIERS"
+  },
+  "es": {
+    "welcome": "Bienvenido a la oscuridad",
+    "login": "Acceder",
+    "register": "Registrarse",
+    "server_status": "ESTADO DEL SERVIDOR",
+    "start": "INICIAR",
+    "stop": "DETENER",
+    "files": "ARCHIVOS"
+  }
+}
+
